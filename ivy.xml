@@ -33,5 +33,12 @@
         <dependency org="com.github.akarnokd" name="ixjava" rev="latest.[any status]">
             <exclude name="rxjava"/>
         </dependency>
+        <dependency org="org.eclipse.rap" name="org.eclipse.rap.rwt" rev="2.3.1">
+            
+        </dependency>
+        <dependency org="org.eclipse.rap" name="org.eclipse.rap.jface" rev="2.3.1">
+        </dependency>
+        <override org='javax.servlet' rev="3.1.0"/>
     </dependencies>
+    
 </ivy-module>
